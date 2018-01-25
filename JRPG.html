@@ -1,0 +1,633 @@
+<div id="game" style="width:600px; height:500px; position:absolute; top:50px; left:50px; border:1px solid red;">
+    <canvas id="ctx" width=600 height=500 style="border:1px solid #000000; position:absolute;"></canvas>
+</div>
+<script>
+    var ctxEl=document.getElementById("ctx");
+    var ctx = ctxEl.getContext("2d");
+    var CURRENT_LEVEL, CURRENT_BATTLE;
+    var CANVAS_HEIGHT = 500;
+    var CANVAS_WIDTH = 600;
+    var TILEWIDTH= 32;
+    var TILEHEIGHT=32;
+    var BATTLE=false;
+    var images=[
+        'chars/player/oldplayer.png',
+        'chars/enemy/oldenemy1.png',
+        'tiles/tileSheet.png',
+        'bkg/forest.png'
+    ];
+    imgList={};
+    enemyList={};
+    entityList=[];
+    entityMap={};
+    eDB={};
+    tileList={};
+    levelList={};
+
+    /*Grids**/
+    level1=[
+        [0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,1],
+        [0,0,0,0,0,1,0,1,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,1],
+        [0,0,0,0,0,1,0,1,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,1],
+        [0,0,0,0,0,1,0,1,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,1],
+        [0,0,0,0,0,1,0,1,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,1],
+        [0,0,0,0,0,1,0,1,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,1],
+        [0,0,2,2,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,2,0,0,0,1],
+        [0,0,0,0,0,1,0,1,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,1],
+        [1,1,1,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,1],
+    ];
+    level1Entities=[
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+    ];
+
+    preLoadImages=function(){
+        for(var i=0; i<images.length; i++){
+            var image = new Image();
+            image.src=images[i];
+            imgList[images[i]]=image;
+        }
+    }
+
+    initializeEntityValues=function(){
+        //Player
+        eDB[1]={
+            gfx: new Gfx(images[0],32,64),
+            stat: new Stat(500,120,50,20,15,70),
+            data: new Data(1,"Billy","Player",3,3)
+        };
+        //Enemy1
+        eDB[2]={
+            gfx: new Gfx(images[1],34,62),
+            stat: new Stat(100,30,20,5,5,10),
+            data: new Data(2,"Jim","Enemy",1,1),
+            rangeX:40,
+            rangeY:40
+        };
+    }
+
+    initializeTiles=function(){
+        tileList[0]= new Tile('grass',0,0,1,false);
+        tileList[1]= new Tile('water',1,4,18,true);
+        tileList[2]= new Tile('plank',2,0,5,false);
+    }
+
+    initializeLevels=function(){
+        levelList['L1']=new Level('main',images[2],0,level1,level1Entities,768,960);
+    }
+
+    isUndefined=function(parameter, defaultValue){
+        if(parameter==undefined)
+            return defaultValue;
+        return parameter;
+    }
+
+    Gfx=function(img,width,height,sWidth,sHeight){
+        this.img=img;
+        this.width=width;
+        this.height=height;
+        this.x=this.y=this.sX=this.sY=0;
+        this.sWidth=isUndefined(sWidth,this.width);
+        this.sHeight=isUndefined(sHeight,this.height);
+    }
+
+    Stat=function(HP, ATK, DEF, MAG, SPR, MP, EXP){
+        this.HP=HP;
+        this.ATK=ATK;
+        this.DEF=DEF;
+        this.MAG=MAG;
+        this.SPR=SPR;
+        this.MP=MP;
+        this.EXP=isUndefined(EXP,0);
+    }
+
+    Data=function(id, name, type,spdX,spdY){
+        this.id=id;
+        this.name=name;
+        this.type=type;
+        this.spdX=isUndefined(spdX,0);
+        this.spdY=isUndefined(spdY,0);
+    }
+
+    Entity = function (gfx, stat ,data) {
+        this.gfx=gfx;
+        this.stat=stat;
+        this.data=data;
+
+        this.render = function(){
+            ctx.drawImage(imgList[this.gfx.img], this.gfx.sX, this.gfx.sY, this.gfx.sWidth,
+                this.gfx.sHeight, this.gfx.x, this.gfx.y, this.gfx.sWidth, this.gfx.sHeight);
+        }
+
+        this.update = function () {
+            this.render();
+        }
+
+        entityList.push(this);
+    }
+
+    Creature = function (gfx,stat,data) {
+        Entity.call(this, gfx, stat, data);
+        this.left = this.right = this.up = this.down = false;
+        this.frame = 0;
+        this.frameCounter = 0;
+
+        this.setSheet = function (image) {
+            this.gfx.img = image;
+        }
+
+        this.setPosition = function (x, y) {
+            this.gfx.x = x;
+            this.gfx.y = y;
+        }
+
+        this.face = function () {
+            if (this.up) this.gfx.sY = this.gfx.sHeight * 4;
+            if (this.down) this.gfx.sY = this.gfx.sHeight;
+            if (this.left) this.gfx.sY = this.gfx.sHeight * 3;
+            if (this.right) this.gfx.sY = this.gfx.sHeight * 2;
+        }
+
+        this.move = function () {
+            switch (this.frame % 4) {
+                case 0:
+                    this.gfx.sX = 0;
+                    break;
+                case 1:
+                    this.gfx.sX = this.gfx.sWidth ;
+                    break;
+                case 2:
+                    this.gfx.sX = this.gfx.sWidth * 2;
+                    break;
+                case 3:
+                    this.gfx.sX = this.gfx.sWidth * 3;
+                    break;
+            }
+            this.frame++;
+        }
+
+        this.animateMove = function () {
+            if (this.frameCounter % 7 == 0) {
+                this.face();
+                this.move();
+            }
+            this.frameCounter++;
+        }
+
+        this.updatePos = function () {
+            if (this.up) {
+                this.gfx.y -= this.data.spdY;
+            }
+            if (this.down) {
+                this.gfx.y += this.data.spdY;
+            }
+            if (this.left) {
+                this.gfx.x -= this.data.spdX;
+            }
+            if (this.right) {
+                this.gfx.x += this.data.spdX;
+            }
+            if (this.left || this.right || this.up || this.down){
+                this.animateMove();
+            }
+        }
+        this.update=function(){
+            this.updatePos();
+            this.render();
+        }
+
+    }
+
+    Player = function (gfx,stat,data){
+        Creature.call(this,gfx,stat,data);
+        var midY=CANVAS_HEIGHT/2-(this.gfx.height/2);
+        var midX=CANVAS_WIDTH/2-(this.gfx.width/2);
+        this.stance={x:150,y:0,width:40,height:64};
+        this.abilities=["Fireball","Earthquake","Heal","Beam"];
+        this.gfx.y=midY;
+        this.gfx.x=midX;
+        this.stop=function(event){
+            this.frame=this.frameCounter=0;
+            this.gfx.sY=0;
+            switch (event.keyCode){
+                case 87:
+                    this.up=false;
+                    this.gfx.sX=this.gfx.sWidth;
+                    break;
+                case 65:
+                    this.left=false;
+                    this.gfx.sX=this.gfx.sWidth*3;
+                    break;
+                case 83:
+                    this.down=false;
+                    this.gfx.sX=0;
+                    break;
+                case 68:
+                    this.right=false;
+                    this.gfx.sX=this.gfx.sWidth*2;
+                    break;
+            }
+        }
+
+        this.collided=function(direction,e){
+            if(e.isSolid) {
+                if (direction == 'up') {
+                    return this.gfx.y +(this.gfx.height/2)-this.data.spdY< e.gfx.y+e.gfx.height && this.gfx.y > e.gfx.y
+                        && this.gfx.x + this.gfx.width > e.gfx.x && this.gfx.x < e.gfx.x + e.gfx.width;
+                }
+                if (direction == 'down') {
+                    return this.gfx.y + (this.gfx.height/2)+this.data.spdY > e.gfx.y && this.gfx.y < e.gfx.y
+                        && this.gfx.x + this.gfx.width > e.gfx.x && this.gfx.x < e.gfx.x + e.gfx.width;
+                }
+                if (direction == 'right') {
+                    return this.gfx.x + this.gfx.width+this.gfx.spdX > e.gfx.x && this.gfx.x < e.gfx.x
+                        && this.gfx.y +(this.gfx.height/2)> e.gfx.y && this.gfx.y + this.gfx.height < e.gfx.y +e.gfx.height+ (this.gfx.height / 2);
+                }
+                if (direction == 'left') {
+                    return this.gfx.x -this.data.spdX< e.gfx.x + e.gfx.width && this.gfx.x > e.gfx.x
+                        && this.gfx.y +(this.gfx.height/2)> e.gfx.y && this.gfx.y + this.gfx.height < e.gfx.y +e.gfx.height+ (this.gfx.height / 2);
+                }
+            }else{
+                return false;
+            }
+        }
+
+        this.updatePos = function () {
+            var collision=false;
+            for(var i=0; i<entityList.length;i++) {
+                if(entityList[i]!=player){
+                    var e=entityList[i];
+                    if(this.up){
+                        if(!this.collided('up',e)) {
+                            if (CURRENT_LEVEL.y >= 0 || this.gfx.y != midY) {
+                                if (this.gfx.y > 0) this.gfx.y -= this.data.spdY;
+                            } else {
+                                e.gfx.y += this.data.spdY;
+                                CURRENT_LEVEL.y += this.data.spdY;
+                            }
+                        }else{
+                            collision=true;
+                        }
+                    }
+                    if(this.down){
+                        if(!this.collided('down',e)){
+                            if(CURRENT_LEVEL.y+CURRENT_LEVEL.height<=CANVAS_HEIGHT || this.gfx.y!=midY) {
+                                if (this.gfx.y +this.gfx.height< CANVAS_HEIGHT)
+                                    this.gfx.y += this.data.spdY;
+                            }else {
+                                e.gfx.y -=this.data.spdY;
+                                CURRENT_LEVEL.y-=this.data.spdY;
+                            }
+                        }else{
+                            collision=true;
+                        }
+                    }
+                    if(this.left){
+                        if(!this.collided('left',e)){
+                            if(CURRENT_LEVEL.x>=0 || this.gfx.x!=midX) {
+                                if (this.gfx.x > 0)
+                                    this.gfx.x -= this.data.spdX;
+                            }else {
+                                e.gfx.x += this.data.spdX;
+                                CURRENT_LEVEL.x+= this.data.spdX;
+                            }
+                        }else{
+                            collision=true;
+                        }
+                    }
+                    if(this.right){
+                        if(!this.collided('right',e)){
+                            if(CURRENT_LEVEL.x+CURRENT_LEVEL.width<=CANVAS_WIDTH || this.gfx.x!=midX) {
+                                if (this.gfx.x + this.gfx.width< CANVAS_WIDTH)
+                                    this.gfx.x += this.data.spdX;
+                            }else {
+                                e.gfx.x -=this.data.spdX;
+                                CURRENT_LEVEL.x-=this.data.spdX;
+                            }
+                        }else{
+                            collision=true;
+                        }
+                    }
+                    if(collision){
+                        if(e.data.type=='Enemy'){
+                            BATTLE=true;
+                            CURRENT_BATTLE=new Battle(this,e,images[3]);
+                            return;
+                        }
+                    }
+                }
+
+            }
+            if (this.left || this.right || this.up || this.down){
+                this.animateMove();
+            }
+        }
+    }
+
+    Enemy = function(gfx,stat,data,rangeX, rangeY){
+        Creature.call(this,gfx,stat,data);
+        this.target=false;
+        this.isSolid=true;
+        this.rangeX=rangeX;
+        this.rangeY=rangeY;
+        this.stance={x:150,y:0,width:44,height:56};
+        this.wanderTime=0;
+
+        this.wander=function(){
+            if(this.wanderTime<=0) {
+                this.wanderTime = Math.floor((Math.random() * 100) + 50)
+                this.left = this.right = this.up = this.down = false;
+                var direction = Math.floor((Math.random() * 4) + 1);
+                switch (direction) {
+                    case 1:
+                        this.up = true;
+                        break;
+                    case 2:
+                        this.down = true;
+                        break;
+                    case 3:
+                        this.left = true;
+                        break;
+                    case 4:
+                        this.right = true;
+                        break;
+                }
+            }
+            this.wanderTime--;
+        }
+        this.checkBounds=function(){
+            if(this.down && this.gfx.y > this.gfx.y+this.rangeY || this.up && this.gfx.y < this.gfx.y-(this.rangeY*2)){
+                this.up=!this.up;
+                this.down=!this.down;
+            }
+            if(this.left && this.gfx.x < this.gfx.x-(this.rangeX*2) || this.right && this.gfx.x > this.rangeX){
+                this.left=!this.left;
+                this.right=!this.right;
+            }
+
+        }
+
+        this.updatePos=function(){
+                if (this.up) {
+                    this.checkBounds();
+                    this.gfx.y -= this.data.spdY;
+                }
+                if (this.down) {
+                    this.checkBounds();
+                    this.gfx.y += this.data.spdY;
+                }
+                if (this.left) {
+                    this.checkBounds();
+                    this.gfx.x -= this.data.spdX;
+                }
+                if (this.right) {
+                    this.checkBounds();
+                    this.gfx.x += this.data.spdX;
+                }
+                if (this.left || this.right || this.up || this.down)
+                    this.animateMove();
+        }
+
+        this.update=function(){
+            //this.wander();
+            this.updatePos();
+            this.render();
+        }
+        enemyList[this.data.id]=this;
+    }
+
+    Tile = function(name, id, xTilePos, yTilePos,solid){
+        this.name=name;
+        this.id=id;
+        this.x= TILEWIDTH*xTilePos;
+        this.y= TILEHEIGHT*yTilePos;
+        this.solid=solid;
+    }
+
+    Level= function(name,img,id,tileGrid,entityGrid, width, height,x,y){
+        this.name=name;
+        this.img=img;
+        this.id=id;
+        this.tileGrid=tileGrid;
+        this.entityGrid=entityGrid;
+        this.width=width;
+        this.height=height;
+        this.x=isUndefined(x,0);
+        this.y=isUndefined(y,0);
+
+        this.updateEntities=function(){
+            entityList.sort( function (a, b) {return a.gfx.y - b.gfx.y;});
+            for(var i=0; i<entityList.length;i++) {
+                if(entityList[i].gfx.x + entityList[i].gfx.width>=0 || entityList[i].gfx.x <=CANVAS_WIDTH ||
+                    entityList[i].gfx.y + entityList[i].gfx.height>=0 || entityList[i].gfx.y <=CANVAS_HEIGHT) {
+                    entityList[i].update();
+                }
+            }
+
+        }
+
+        this.render=function(){
+            for(var i=0; i<this.tileGrid.length; i++){
+                var row=this.tileGrid[i];
+                if(this.y + TILEHEIGHT*i >= -TILEHEIGHT && this.y + TILEHEIGHT*i <= CANVAS_HEIGHT) {
+                    for (var j = 0; j < row.length; j++) {
+                        var tile = row[j];
+                        if (this.x + TILEWIDTH*j >= -TILEWIDTH && this.x + TILEWIDTH*j <= CANVAS_WIDTH ) {
+                            ctx.drawImage(imgList[this.img], tileList[tile].x, tileList[tile].y, TILEWIDTH,
+                                TILEHEIGHT, this.x + (j * TILEWIDTH), this.y + (i * TILEHEIGHT), TILEWIDTH, TILEHEIGHT);
+                        }
+                    }
+                }
+            }
+
+        }
+
+        this.update=function(){
+            this.render();
+            this.updateEntities();
+        }
+
+        this.findXY=function(){
+            for(var i=0; i<this.entityGrid.length; i++){
+                var row=this.entityGrid[i];
+                for(var j=0; j<row.length;j++){
+                    if(row[j]==player.data.id){
+                        var x=player.gfx.x - j * TILEWIDTH;
+                        var y=player.gfx.y - i * TILEHEIGHT;
+                        if(x>=0) x=0;
+                        if(y>=0) y=0;
+                        if(x + this.width <= CANVAS_WIDTH) x=CANVAS_WIDTH;
+                        if(y + this.height <= CANVAS_HEIGHT) y=CANVAS_HEIGHT;
+                        this.x = x;
+                        this.y = y;
+                        return;
+                    }
+                }
+            }
+        }
+
+        this.createEntity=function(type, E,x,y){
+            if(type=="Enemy"){
+                E.gfx.x=x;
+                E.gfx.y=y;
+                new Enemy(E.gfx,E.stat,E.data,E.rangeX,E.rangeY);
+            }
+        }
+
+        this.findXY();
+
+        //Initializes all entity positions
+        for(var i=0; i<this.entityGrid.length; i++){
+            var row=this.entityGrid[i];
+            for(var j=0; j<row.length;j++){
+                if(row[j] in eDB){
+                    this.createEntity(eDB[row[j]].data.type,eDB[row[j]],this.x + j*TILEWIDTH,this.y + i*TILEHEIGHT);
+                }
+            }
+        }
+
+
+    }
+
+    document.onkeydown = function(event){
+        if (event.keyCode == 87)
+            player.up = true;
+        else if (event.keyCode == 65)
+            player.left = true;
+        else if (event.keyCode == 83)
+            player.down = true;
+        else if (event.keyCode == 68)
+            player.right = true;
+    }
+
+    document.onkeyup = function(event){
+        player.stop(event);
+    }
+
+    initialize=function(){
+        initializeEntityValues();
+        var E=eDB[1];
+        player=new Player(E.gfx,E.stat,E.data);
+        preLoadImages();
+        initializeTiles();
+        initializeLevels();
+        CURRENT_LEVEL=levelList['L1'];
+
+    }
+
+    Battle=function(player,enemy,bkg){
+        this.turn=1;
+        this.player=player;
+        this.enemy=enemy;
+        this.bkg=bkg;
+
+        this.renderFighters=function(){
+
+        }
+        this.renderStats=function(){
+
+        }
+        this.renderBKG=function(){
+            ctx.drawImage(imgList[this.bkg],0,0,CANVAS_WIDTH,CANVAS_HEIGHT);
+        }
+        this.update=function(){
+            this.renderBKG();
+        }
+
+        this.initializeContainer=function(){
+            var container=document.createElement("DIV");
+            container.style.backgroundImage='url('+this.bkg+')';
+            container.style.width=CANVAS_WIDTH;
+            container.style.height=CANVAS_HEIGHT;
+            container.style.position="absolute";
+            container.style.display="block";
+            this.container=container;
+        }
+
+        this.initializeCanvas=function(){
+            var ctx=document.createElement("Canvas");
+            ctx.width=CANVAS_WIDTH;
+            ctx.height=CANVAS_HEIGHT*0.6;
+            ctx.style.border="1px solid #000000";
+            ctx.style.position="absolute";
+            this.ctxEl=ctx;
+            this.ctx=ctx.getContext("2d");
+        }
+
+        this.initialize=function(){
+            this.initializeContainer();
+            this.initializeCanvas();
+            this.ctx.drawImage(imgList[player.gfx.img],player.stance.x,player.stance.y,
+                player.stance.width,player.stance.height,CANVAS_WIDTH/4-player.stance.width,
+                (CANVAS_HEIGHT*0.6-player.stance.height)/2,40,64);
+            document.getElementById('ctx').style.display="none";
+            this.container.appendChild(this.ctxEl);
+            document.getElementById('game').appendChild(this.container);
+        }
+
+        this.initialize();
+
+    }
+
+    update = function(){
+        ctx.clearRect(0,0,CANVAS_WIDTH,CANVAS_HEIGHT);
+        if(!BATTLE) {
+            CURRENT_LEVEL.update();
+        }
+    }
+
+    initialize();
+    setInterval(update, 20);
+
+
+
+</script>

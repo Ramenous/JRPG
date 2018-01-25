@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06078e0a-a7c1-457f-af4b-4a2fad10912c" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="jrpg backup.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#782#2559#0" expanded="false" />
+                <element signature="e#2580#4357#0" expanded="false" />
+                <element signature="e#4388#4557#0" expanded="false" />
+                <element signature="e#4596#5318#0" expanded="false" />
+                <element signature="e#4630#4929#0" expanded="false" />
+                <element signature="e#5350#5513#0" expanded="false" />
+                <element signature="e#5546#5638#0" expanded="false" />
+                <element signature="e#5689#5788#0" expanded="false" />
+                <element signature="e#6903#9064#0" expanded="false" />
+                <element signature="e#9472#10113#0" expanded="false" />
+                <element signature="e#10158#11225#0" expanded="false" />
+                <element signature="e#11264#14200#0" expanded="false" />
+                <element signature="e#11466#11965#0" expanded="false" />
+                <element signature="e#11999#12583#0" expanded="false" />
+                <element signature="e#13181#13763#0" expanded="false" />
+                <element signature="e#13236#13666#0" expanded="false" />
+                <element signature="e#14311#16642#0" expanded="false" />
+                <element signature="e#14671#15434#0" expanded="false" />
+                <element signature="e#15470#15864#0" expanded="false" />
+                <element signature="e#15899#16474#0" expanded="false" />
+                <element signature="e#16506#16603#0" expanded="false" />
+                <element signature="e#16699#16849#0" expanded="false" />
+                <element signature="e#16922#19861#0" expanded="false" />
+                <element signature="e#17217#17621#0" expanded="false" />
+                <element signature="e#17653#18381#0" expanded="false" />
+                <element signature="e#18413#18486#0" expanded="false" />
+                <element signature="e#18518#19221#0" expanded="false" />
+                <element signature="e#19270#19459#0" expanded="false" />
+                <element signature="e#19903#20184#0" expanded="false" />
+                <element signature="e#20224#20259#0" expanded="false" />
+                <element signature="e#20619#22186#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JRPG.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JRPG.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3850">
+              <caret line="607" column="36" lean-forward="false" selection-start-line="607" selection-start-column="36" selection-end-line="607" selection-end-column="36" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#782#2559#0" expanded="false" />
+                <element signature="e#2580#4357#0" expanded="false" />
+                <element signature="e#4388#4557#0" expanded="false" />
+                <element signature="e#5051#5214#0" expanded="false" />
+                <element signature="e#5247#5339#0" expanded="false" />
+                <element signature="e#5390#5489#0" expanded="false" />
+                <element signature="e#5540#5771#0" expanded="false" />
+                <element signature="e#5823#5995#0" expanded="false" />
+                <element signature="e#6040#6193#0" expanded="false" />
+                <element signature="e#6235#6649#0" expanded="false" />
+                <element signature="e#6691#8701#0" expanded="false" />
+                <element signature="e#6896#6941#0" expanded="false" />
+                <element signature="e#7379#7871#0" expanded="false" />
+                <element signature="e#7912#8074#0" expanded="false" />
+                <element signature="e#8113#8595#0" expanded="false" />
+                <element signature="e#9808#11090#0" expanded="false" />
+                <element signature="e#11129#14202#0" expanded="false" />
+                <element signature="e#14260#16637#0" expanded="false" />
+                <element signature="e#14525#15288#0" expanded="false" />
+                <element signature="e#16694#16844#0" expanded="false" />
+                <element signature="e#16917#19893#0" expanded="false" />
+                <element signature="e#19935#20216#0" expanded="false" />
+                <element signature="e#20256#20291#0" expanded="false" />
+                <element signature="e#20318#20549#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>HEIGHT</find>
+      <find>entityList</find>
+      <find>i</find>
+      <find>var i</find>
+      <find>entityMap</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.html" />
+        <option value="$PROJECT_DIR$/../rpg/main.html" />
+        <option value="$PROJECT_DIR$/jrpg2.html" />
+        <option value="$PROJECT_DIR$/jrpg backup.html" />
+        <option value="$PROJECT_DIR$/JRPG.html" />
+        <option value="$PROJECT_DIR$/Login.html" />
+        <option value="$PROJECT_DIR$/Register.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-11" />
+    <option name="width" value="1924" />
+    <option name="height" value="1042" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JRPG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JRPG" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="C:/wamp64/www/gamu/Register.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/yoits/Desktop/projects/rpg/main.html" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yoits\Desktop\projects\JRPG" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.Register.html">
+    <configuration default="false" name="JRPG.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/JRPG/JRPG.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="jrpg backup.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JRPG/jrpg backup.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Login.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/JRPG/Login.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="Register.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/JRPG/Register.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JRPG.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.jrpg backup.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Login.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Register.html" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Register.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Login.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JRPG.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.jrpg backup.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06078e0a-a7c1-457f-af4b-4a2fad10912c" name="Default" comment="" />
+      <created>1499582225612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499582225612</updated>
+      <workItem from="1499582226921" duration="619000" />
+      <workItem from="1500519591352" duration="7560000" />
+      <workItem from="1500599828387" duration="626000" />
+      <workItem from="1500602750009" duration="36565000" />
+      <workItem from="1500953588371" duration="3295000" />
+      <workItem from="1501028235762" duration="7792000" />
+      <workItem from="1501114583178" duration="5042000" />
+      <workItem from="1501177423092" duration="104000" />
+      <workItem from="1501190928604" duration="2000" />
+      <workItem from="1501204566233" duration="13594000" />
+      <workItem from="1501286322623" duration="10521000" />
+      <workItem from="1501347111399" duration="8438000" />
+      <workItem from="1501454380051" duration="46439000" />
+      <workItem from="1502133866039" duration="9906000" />
+      <workItem from="1502329330271" duration="38478000" />
+      <workItem from="1502685800831" duration="17382000" />
+      <workItem from="1503081963995" duration="5687000" />
+      <workItem from="1503725966169" duration="448000" />
+      <workItem from="1503929595270" duration="256000" />
+      <workItem from="1503968718589" duration="22514000" />
+      <workItem from="1504104407518" duration="11457000" />
+      <workItem from="1504670385992" duration="599000" />
+      <workItem from="1505082437765" duration="599000" />
+      <workItem from="1505269258891" duration="12000" />
+      <workItem from="1505274643237" duration="599000" />
+      <workItem from="1505314554774" duration="209000" />
+      <workItem from="1505431073138" duration="1176000" />
+      <workItem from="1505965014142" duration="599000" />
+      <workItem from="1505968139360" duration="2941000" />
+      <workItem from="1506022797285" duration="2585000" />
+      <workItem from="1506038421475" duration="79000" />
+      <workItem from="1506039589251" duration="429000" />
+      <workItem from="1506285964635" duration="1791000" />
+      <workItem from="1506470211374" duration="598000" />
+      <workItem from="1506489253384" duration="124000" />
+      <workItem from="1506492129006" duration="598000" />
+      <workItem from="1506753227304" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="260262000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="0" width="1924" height="1042" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24447949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JRPG.html</url>
+          <line>177</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="45" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15175">
+          <caret line="607" column="36" lean-forward="false" selection-start-line="607" selection-start-column="36" selection-end-line="607" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15175">
+          <caret line="607" column="36" lean-forward="false" selection-start-line="607" selection-start-column="36" selection-end-line="607" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register.html" />
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/Register.html" />
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15175">
+          <caret line="607" column="36" lean-forward="false" selection-start-line="607" selection-start-column="36" selection-end-line="607" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15175">
+          <caret line="607" column="36" lean-forward="false" selection-start-line="607" selection-start-column="36" selection-end-line="607" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register.html" />
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/Register.html" />
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/Register.html" />
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15175">
+          <caret line="607" column="36" lean-forward="false" selection-start-line="607" selection-start-column="36" selection-end-line="607" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register.html" />
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15175">
+          <caret line="607" column="36" lean-forward="false" selection-start-line="607" selection-start-column="36" selection-end-line="607" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register.html" />
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15175">
+          <caret line="607" column="36" lean-forward="false" selection-start-line="607" selection-start-column="36" selection-end-line="607" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register.html" />
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="165" column="5" lean-forward="false" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15175">
+          <caret line="607" column="36" lean-forward="false" selection-start-line="607" selection-start-column="36" selection-end-line="607" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register.html" />
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4125">
+          <caret line="165" column="5" lean-forward="true" selection-start-line="165" selection-start-column="5" selection-end-line="165" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15175">
+          <caret line="607" column="36" lean-forward="true" selection-start-line="607" selection-start-column="36" selection-end-line="607" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Register.html" />
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6375">
+          <caret line="255" column="24" lean-forward="true" selection-start-line="255" selection-start-column="24" selection-end-line="255" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3875">
+          <caret line="155" column="19" lean-forward="true" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16125">
+          <caret line="645" column="9" lean-forward="false" selection-start-line="645" selection-start-column="9" selection-end-line="645" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16125">
+          <caret line="645" column="9" lean-forward="false" selection-start-line="645" selection-start-column="9" selection-end-line="645" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JRPG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3850">
+          <caret line="607" column="36" lean-forward="false" selection-start-line="607" selection-start-column="36" selection-end-line="607" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#5051#5214#0" expanded="false" />
+            <element signature="e#5247#5339#0" expanded="false" />
+            <element signature="e#5390#5489#0" expanded="false" />
+            <element signature="e#5540#5771#0" expanded="false" />
+            <element signature="e#5823#5995#0" expanded="false" />
+            <element signature="e#6040#6193#0" expanded="false" />
+            <element signature="e#6235#6649#0" expanded="false" />
+            <element signature="e#6691#8701#0" expanded="false" />
+            <element signature="e#6896#6941#0" expanded="false" />
+            <element signature="e#7379#7871#0" expanded="false" />
+            <element signature="e#7912#8074#0" expanded="false" />
+            <element signature="e#8113#8595#0" expanded="false" />
+            <element signature="e#9808#11090#0" expanded="false" />
+            <element signature="e#11129#14202#0" expanded="false" />
+            <element signature="e#14260#16637#0" expanded="false" />
+            <element signature="e#14525#15288#0" expanded="false" />
+            <element signature="e#16694#16844#0" expanded="false" />
+            <element signature="e#16917#19893#0" expanded="false" />
+            <element signature="e#19935#20216#0" expanded="false" />
+            <element signature="e#20256#20291#0" expanded="false" />
+            <element signature="e#20318#20549#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.html" />
+    <entry file="file://$PROJECT_DIR$/Register.html" />
+    <entry file="file://C:/wamp64/www/gamu/Register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1676">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jrpg backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#782#2559#0" expanded="false" />
+            <element signature="e#2580#4357#0" expanded="false" />
+            <element signature="e#4388#4557#0" expanded="false" />
+            <element signature="e#4596#5318#0" expanded="false" />
+            <element signature="e#4630#4929#0" expanded="false" />
+            <element signature="e#5350#5513#0" expanded="false" />
+            <element signature="e#5546#5638#0" expanded="false" />
+            <element signature="e#5689#5788#0" expanded="false" />
+            <element signature="e#6903#9064#0" expanded="false" />
+            <element signature="e#9472#10113#0" expanded="false" />
+            <element signature="e#10158#11225#0" expanded="false" />
+            <element signature="e#11264#14200#0" expanded="false" />
+            <element signature="e#11466#11965#0" expanded="false" />
+            <element signature="e#11999#12583#0" expanded="false" />
+            <element signature="e#13181#13763#0" expanded="false" />
+            <element signature="e#13236#13666#0" expanded="false" />
+            <element signature="e#14311#16642#0" expanded="false" />
+            <element signature="e#14671#15434#0" expanded="false" />
+            <element signature="e#15470#15864#0" expanded="false" />
+            <element signature="e#15899#16474#0" expanded="false" />
+            <element signature="e#16506#16603#0" expanded="false" />
+            <element signature="e#16699#16849#0" expanded="false" />
+            <element signature="e#16922#19861#0" expanded="false" />
+            <element signature="e#17217#17621#0" expanded="false" />
+            <element signature="e#17653#18381#0" expanded="false" />
+            <element signature="e#18413#18486#0" expanded="false" />
+            <element signature="e#18518#19221#0" expanded="false" />
+            <element signature="e#19270#19459#0" expanded="false" />
+            <element signature="e#19903#20184#0" expanded="false" />
+            <element signature="e#20224#20259#0" expanded="false" />
+            <element signature="e#20619#22186#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
